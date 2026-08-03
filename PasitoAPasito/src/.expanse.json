@@ -91,50 +91,6 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.6644431107322474
     },
-    "1fb5b814-578b-454c-817b-cc72d843d3fc": {
-      "id": "1fb5b814-578b-454c-817b-cc72d843d3fc",
-      "position": [
-        0.0020371943388963676,
-        1.2727685105963904e-17,
-        -0.1120794175885984
-      ],
-      "rotation": [
-        7.218982014795187e-32,
-        -1.3867258624527322e-16,
-        -3.2807540941927633e-16,
-        1
-      ],
-      "scale": [
-        0.25611543882814386,
-        0.25611543882814375,
-        0.2561154388281437
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {
-        "38ea8594-8e2b-4317-bb9d-dff759b85c0c": {
-          "id": "38ea8594-8e2b-4317-bb9d-dff759b85c0c",
-          "name": "look-at-animation",
-          "parameters": {
-            "target": {
-              "type": "entity",
-              "id": "3748d091-53e2-46e3-9ab2-a6825a371b44"
-            }
-          }
-        }
-      },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/model.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "model.glb",
-      "order": 3.037364601087118
-    },
     "01dfab8d-b589-4206-9955-14b08663afb3": {
       "id": "01dfab8d-b589-4206-9955-14b08663afb3",
       "position": [
@@ -203,12 +159,189 @@
             "fromZ": 0.163,
             "toX": 0.587,
             "toY": 0.2730273,
-            "toZ": 0.163
+            "toZ": 0.163,
+            "autoFrom": true,
+            "duration": 1000
           }
+        },
+        "25991d17-7ea3-4362-8515-9a69478c4f6f": {
+          "id": "25991d17-7ea3-4362-8515-9a69478c4f6f",
+          "name": "Custom Component",
+          "parameters": {}
         }
       },
       "name": "Box",
       "order": 6.543543537139612
+    },
+    "2f7cd08e-68dd-46bc-b701-d2dfa4d0e4d3": {
+      "id": "2f7cd08e-68dd-46bc-b701-d2dfa4d0e4d3",
+      "position": [
+        0.002201084440447476,
+        0.1386539546290457,
+        -3.078736257689967e-17
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        0.23664034080853605,
+        0.236640340808536,
+        0.236640340808536
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "01dfab8d-b589-4206-9955-14b08663afb3",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Avatarfinal.glb"
+        },
+        "animationClip": "Idle",
+        "loop": true
+      },
+      "name": "Avatarfinal.glb",
+      "order": 8.199892003124182
+    },
+    "fb1de743-cc27-4b68-9c02-d71246f2be7f": {
+      "id": "fb1de743-cc27-4b68-9c02-d71246f2be7f",
+      "position": [
+        0,
+        0.2114381133012314,
+        -0.06696911491769941
+      ],
+      "rotation": [
+        0.026639874576798703,
+        0,
+        0,
+        0.9996450955626864
+      ],
+      "scale": [
+        1,
+        1.0000000532124818,
+        1.0000000532124818
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF"
+      },
+      "parentId": "8c36c83e-b0a5-4df7-9a16-596e70fe2118",
+      "components": {},
+      "name": "Video",
+      "order": -1.3790602007080808,
+      "videoControls": {}
+    },
+    "8c36c83e-b0a5-4df7-9a16-596e70fe2118": {
+      "id": "8c36c83e-b0a5-4df7-9a16-596e70fe2118",
+      "position": [
+        -0.02692889030965273,
+        0.20627900602513355,
+        -0.47749629669426275
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Button",
+      "order": 10.408972807161938
+    },
+    "90e6b109-d427-45aa-85d8-f4012fdb6637": {
+      "id": "90e6b109-d427-45aa-85d8-f4012fdb6637",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "8c36c83e-b0a5-4df7-9a16-596e70fe2118",
+      "components": {},
+      "name": "Icon",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "url",
+          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
+        },
+        "backgroundOpacity": 1
+      },
+      "order": 0.4648777251101678
+    },
+    "e1c1e6ce-82d1-475f-87f4-8a6c5d1d7fb4": {
+      "id": "e1c1e6ce-82d1-475f-87f4-8a6c5d1d7fb4",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "8c36c83e-b0a5-4df7-9a16-596e70fe2118",
+      "components": {},
+      "name": "Text",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "Button",
+        "color": "#ffffff",
+        "fontSize": 16
+      },
+      "order": 1.2937958663985263
     }
   },
   "spaces": {
