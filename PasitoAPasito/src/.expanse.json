@@ -231,7 +231,11 @@
       },
       "material": {
         "type": "basic",
-        "color": "#FFFFFF"
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/video.mp4"
+        }
       },
       "parentId": "8c36c83e-b0a5-4df7-9a16-596e70fe2118",
       "components": {},
@@ -260,7 +264,18 @@
       "geometry": null,
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
+      "components": {
+        "866522fb-caf6-4b71-8a15-653d26d55f24": {
+          "id": "866522fb-caf6-4b71-8a15-653d26d55f24",
+          "name": "Pausar Video",
+          "parameters": {
+            "videoEntity": {
+              "type": "entity",
+              "id": "fb1de743-cc27-4b68-9c02-d71246f2be7f"
+            }
+          }
+        }
+      },
       "ui": {
         "type": "3d",
         "width": 100,
